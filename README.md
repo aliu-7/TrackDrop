@@ -64,7 +64,7 @@ docker-compose up --build
 ### 3. Example API Requests
 
 POST /tracks
-```
+```json
 {
   "title": "505",
   "artist": "Arctic Monkeys",
@@ -105,7 +105,7 @@ Includes:
 ---
 
 ## Example Mood Stats Output
-```
+```json
 {
   "top_mood": "chill",
   "mood_counts": {
