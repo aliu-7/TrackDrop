@@ -64,6 +64,7 @@ docker-compose up --build
 ### 3. Example API Requests
 
 POST /tracks
+```
 {
   "title": "505",
   "artist": "Arctic Monkeys",
@@ -71,6 +72,7 @@ POST /tracks
   "tags": ["indie", "nostalgic"],
   "spotify_url": "https://open.spotify.com/track/xyz"
 }
+```
 
 GET /tracks → Returns list of all tracks
 DELETE /tracks/{id} → Deletes a track
@@ -103,6 +105,7 @@ Includes:
 ---
 
 ## Example Mood Stats Output
+```
 {
   "top_mood": "chill",
   "mood_counts": {
@@ -112,7 +115,7 @@ Includes:
   },
   "most_common_artist": "Clairo"
 }
-
+```
 ---
 
 ## Roadmap
