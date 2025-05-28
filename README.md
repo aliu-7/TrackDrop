@@ -57,7 +57,7 @@ cd trackdrop
 
 ### 2. Start Locally with Docker Compose
 
-docker-compose up --build
+```docker-compose up --build```
   * Flask backend: localhost:5000
   * PostgreSQL: port 5432
 
