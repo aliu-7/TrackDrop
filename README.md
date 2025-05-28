@@ -125,5 +125,9 @@ Includes:
   * Visualize mood stats in a dashboard
   * Auto-generate Spotify playlist link
 
+---
+
+## License
+MIT License
 
 
